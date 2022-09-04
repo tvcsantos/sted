@@ -1,0 +1,16 @@
+<!ELEMENT sted (version,hdkeywords,shows)
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT hdkeywords (#PCDATA)>
+<!ELEMENT shows (show+)>
+<!ELEMENT show (name,daily,minimumsize,maximumsize,seeders,sources?)
+<!ELEMENT sources (source+)>
+<!ELEMENT source (class,searchname?,showid)
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT searchname (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT daily (#PCDATA)>
+<!ELEMENT minimumsize (#PCDATA)>
+<!ELEMENT maximumsize (#PCDATA)>
+<!ELEMENT seeders (#PCDATA)>
+
+if no sources try to gess by name some of them

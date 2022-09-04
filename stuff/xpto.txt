@@ -1,0 +1,7 @@
+find
+<div class="MODULE" id="show_summary">
+	<p id="whole_summ"
+<div class="global_rating score
+	<span class="number">9.0</span>
+	<span class="description">Superb</span>
+<div class="MODULE" id="show_buzz_info">
